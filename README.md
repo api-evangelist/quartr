@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Quartr is a company surfaced via the API Evangelist harvest backlog (source: stockholm-trip) and added to the network as a stub for full-pipeline profiling.
-- https://quartr.com/
+Quartr provides AI-powered infrastructure for company research, delivering real-time first‑party data from public companies to investment professionals, research platforms, and financial AI applications. Their platform aggregates earnings calls, transcripts, filings, and slides, enabling rapid insight extraction, trend detection, and automated analysis across over 16,000 companies. Quartr partners with OpenAI’s ChatGPT for Financial Services and serves major financial firms, offering both proprietary data engines and API access for seamless integration into analytics pipelines.
+
+**Areas:** Company · Artificial Intelligence · Finance · Data · Research
+
+## Quartr on APIs.io
+
+Everything profiled for Quartr is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/quartr/](https://apis.io/providers/quartr/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Quartr Public API](https://apis.io/apis/quartr/quartr-public-api/) — The Public API from Quartr — 3 operation(s) for public.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Quartr Webhooks](https://apis.io/asyncapis/quartr/quartr-webhooks/)
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [GetPublicV3CompaniesIdSegmentsResponse](https://apis.io/schemas/quartr/quartr-get-public-v3-companies-id-segments-response/)
+- [GetPublicV3DocumentsDocumentidResponse](https://apis.io/schemas/quartr/quartr-get-public-v3-documents-documentid-response/)
+- [GetPublicV3V3IdResponse](https://apis.io/schemas/quartr/quartr-get-public-v3-v3-id-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Quartr Context](https://apis.io/jsonld/quartr/quartr-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Quartr API Rules](https://apis.io/rules/quartr/quartr-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Quartr Domain Security](https://apis.io/security/quartr/quartr-domain-security/)
+- [Quartr Vulnerability Disclosure](https://apis.io/security/quartr/quartr-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Quartr Plans Pricing](https://apis.io/plans/quartr/quartr-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://quartr.com/)
+- [Documentation](https://quartr.com/docs)
+- [Getting started](https://quartr.com/docs/introduction)
+- [API reference](https://quartr.com/docs/api-reference)
+- [Pricing](https://quartr.com/pricing)
+- [Sign up](https://quartr.com/contact-sales)
+- [Support](https://quartr.com/docs/support)
+- [Blog](https://quartr.com/newsroom)
+- [Security](https://quartr.com/security)
+- [Terms of service](https://quartr.com/terms-of-service)
+- [Privacy policy](https://quartr.com/terms-of-service/privacy-policy)
+- [GitHub](https://github.com/quartr)
+- [Status](https://status.quartr.com/)
+
+## API Evangelist rating
+
+**Kin Score 48.9** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 29.9 |
+| Contract governance | 22.0 |
+| Operational transparency | 55.3 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 65.8 |
+
+**Agent readiness 33.7** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/quartr/](https://apis.io/providers/quartr/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Quartr: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/quartr/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
